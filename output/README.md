@@ -6,3 +6,15 @@
 | scatter_gaming_hours.png | Grades vs gaming hours, shows negative trend | scripts/eda.R |
 | scatter_study_hours.png | Grades vs study hours, shows positive trend | scripts/eda.R |
 | scatter_addiction_score.png | Grades vs addiction score, shows a curve/bend | scripts/eda.R |
+| scatter_sleep_hours.png | Grades vs sleep hours, mild positive trend | scripts/eda.R |
+| scatter_attendance.png | Grades vs attendance, weak positive trend | scripts/eda.R |
+| decision_tree.png | Regression tree; split points are the candidate cutoffs | scripts/threshold_analysis.R |
+| tree_splits.csv | Split variable and value at each internal node | scripts/threshold_analysis.R |
+| binned_gaming_hours.png | Mean grade per 1-hour gaming bin, 95% CIs | scripts/threshold_analysis.R |
+| binned_study_hours.png | Mean grade per 1-hour study bin, 95% CIs | scripts/threshold_analysis.R |
+| binned_sleep_hours.png | Mean grade per 1-hour sleep bin, 95% CIs | scripts/threshold_analysis.R |
+| binned_attendance.png | Mean grade per 5-point attendance bin, 95% CIs | scripts/threshold_analysis.R |
+| binned_addiction_score.png | Mean grade per 5-point addiction bin, 95% CIs | scripts/threshold_analysis.R |
+| binned_means.csv | All binned means, CIs, and bin letter grades | scripts/threshold_analysis.R |
+| threshold_summary.csv | Steepest grade drop per feature, flagged where none exists | scripts/threshold_analysis.R |
+| letter_grade_by_gaming.png | Letter grade mix across gaming hours | scripts/threshold_analysis.R |
