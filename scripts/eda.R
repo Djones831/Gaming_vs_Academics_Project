@@ -9,7 +9,7 @@ corr_matrix <- cor(numeric_vars, use = "complete.obs")
 corrplot(corr_matrix, method = "color", type = "upper", tl.cex = 0.7)
 
 # ---- Scatterplots against grades ----
-plot_vars <- c("gaming_hours", "study_hours", "sleep_hours", "attendance", "addiction_score")
+plot_vars <- c("gaming_hours", "study_hours")
 
 for (v in plot_vars) {
   p <- ggplot(df, aes_string(x = v, y = "grades")) +
