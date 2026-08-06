@@ -1,0 +1,15 @@
+depth,variable,split_value,n_at_node,mean_grade
+1,study_hours,5.7,8000,66.1
+2,gaming_hours,4.61,4236,52.4
+2,gaming_hours,3.95,3764,81.4
+3,study_hours,3.08,2307,63.2
+3,study_hours,7.04,1932,73
+3,study_hours,3.34,1929,39.5
+3,study_hours,7.74,1832,90.4
+4,gaming_hours,6.72,1316,79.1
+4,gaming_hours,2.09,1272,69.5
+4,gaming_hours,2.14,1035,55.5
+4,gaming_hours,6.26,995,46.2
+4,gaming_hours,6.7,934,32.4
+4,gaming_hours,2.12,888,85.4
+4,gaming_hours,5.92,616,59.8

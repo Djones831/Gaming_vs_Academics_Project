@@ -17,7 +17,10 @@ for (v in plot_vars) {
     geom_smooth(method = "loess", color = "blue") +
     labs(title = paste("Grades vs", v))
   print(p)
-  ggsave(paste0("output/scatter_", v, ".png"), plot = p)
+  # set the size explicitly, otherwise ggsave inherits the device dimensions
+  # and writes ~2 MB files that make the repo painful to clone
+  ggsave(paste0("output/scatter_", v, ".png"), plot = p,
+         width = 8, height = 5, dpi = 100)
 }
 
 # ---- Boxplots by categorical variables ----
