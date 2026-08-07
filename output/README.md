@@ -18,3 +18,7 @@
 | binned_means.csv | All binned means, CIs, and bin letter grades | scripts/threshold_analysis.R |
 | threshold_summary.csv | Steepest grade drop per feature, flagged where none exists | scripts/threshold_analysis.R |
 | letter_grade_by_gaming.png | Letter grade mix across gaming hours | scripts/threshold_analysis.R |
+| correlation_results.csv | Correlation of each factor with grades, plus slope in grade points | scripts/stat_testing.R |
+| regression_results.csv | Multiple regression coefficients for all five factors together | scripts/stat_testing.R |
+| method_comparison.csv | ANOVA vs correlation results side by side; flags where they disagree | scripts/stat_testing.R |
+| anova_results.csv | Original one-way ANOVA tables, superseded (see method_comparison.csv) | scripts/stat_testing.R |
