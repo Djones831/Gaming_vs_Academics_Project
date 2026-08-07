@@ -22,3 +22,8 @@
 | regression_results.csv | Multiple regression coefficients for all five factors together | scripts/stat_testing.R |
 | method_comparison.csv | ANOVA vs correlation results side by side; flags where they disagree | scripts/stat_testing.R |
 | anova_results.csv | Original one-way ANOVA tables, superseded (see method_comparison.csv) | scripts/stat_testing.R |
+| model_comparison.csv | Five candidate models scored on the held out test set | scripts/modeling.R |
+| model_coefficients.csv | Coefficients of the chosen model, fit on all 8000 students | scripts/modeling.R |
+| residuals_vs_fitted.png | Residual plot; students at the 100 point cap flagged separately | scripts/modeling.R |
+| qq_residuals.png | Q-Q plot checking the normality assumption | scripts/modeling.R |
+| predicted_vs_actual.png | Predicted vs actual grades on the held out test set | scripts/modeling.R |

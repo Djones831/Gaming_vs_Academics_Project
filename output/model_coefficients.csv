@@ -1,0 +1,8 @@
+term,estimate,std.error,statistic,p.value
+(Intercept),11.6389,0.6658,17.4814,0
+gaming_hours,-4.5336,0.1325,-34.2285,0
+study_hours,4.7146,0.0532,88.6018,0
+I(gaming_hours^2),-0.3489,0.014,-24.8358,0
+sleep_hours,3.7041,0.0468,79.1847,0
+attendance,0.2804,0.0058,48.1202,0
+gaming_hours:study_hours,0.3799,0.0114,33.3653,0

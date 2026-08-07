@@ -1,0 +1,6 @@
+model,n_terms,train_rmse,test_rmse,test_r2
+study_only,1,15.153,15.107,0.5352
+main_effects,5,6.332,6.187,0.922
+with_curves,7,6.194,6.045,0.9256
+with_interaction,8,5.936,5.85,0.9303
+no_addiction,6,5.938,5.851,0.9303
