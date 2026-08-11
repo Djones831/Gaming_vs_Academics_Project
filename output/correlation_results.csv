@@ -1,6 +1,6 @@
-"variable","r","p_value","slope","r_squared","conclusion"
-"gaming_hours",-0.552,0,-5.323,0.3051,"Reject"
-"study_hours",0.733,0,6.332,0.5372,"Reject"
-"sleep_hours",0.249,1.10426983755168e-113,3.847,0.0622,"Reject"
-"attendance",0.13,1.5242097314706e-31,0.25,0.0169,"Reject"
-"addiction_score",-0.496,0,-2.192,0.2461,"Reject"
+variable,r,p_value,slope,r_squared,conclusion
+gaming_hours,-0.552,0,-5.323,0.3051,Reject H0
+study_hours,0.733,0,6.332,0.5372,Reject H0
+sleep_hours,0.249,1.1042698375516781e-113,3.847,0.0622,Reject H0
+attendance,0.13,1.524209731470603e-31,0.25,0.0169,Reject H0
+addiction_score,-0.496,0,-2.192,0.2461,Reject H0

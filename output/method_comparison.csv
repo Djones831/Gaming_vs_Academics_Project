@@ -1,6 +1,6 @@
-"variable","obs_per_cell","anova_p","correct_p","anova_says","correct_says","agrees"
-"gaming_hours",9.99,0,0,"Reject","Reject",""
-"study_hours",8.88,0,0,"Reject","Reject",""
-"sleep_hours",15.97,5.64749442250233e-36,1.10426983755168e-113,"Reject","Reject",""
-"attendance",2.3,0.113855985694142,1.5242097314706e-31,"Fail to reject","Reject","DISAGREES"
-"addiction_score",3.92,5.25511407616946e-129,0,"Reject","Reject",""
+variable,obs_per_cell,anova_p,correct_p,anova_says,correct_says,agrees
+gaming_hours,9.99,0,0,Reject H0,Reject H0,
+study_hours,8.88,0,0,Reject H0,Reject H0,
+sleep_hours,15.97,5.647494422502329e-36,1.1042698375516781e-113,Reject H0,Reject H0,
+attendance,2.3,0.11385598569414206,1.524209731470603e-31,Fail to reject,Reject H0,DISAGREES
+addiction_score,3.92,5.255114076169463e-129,0,Reject H0,Reject H0,
